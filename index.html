@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="img/logo.svg" alt="">
+            <!-- <h1 class="titulo">Encriptador de Mensajes</h1> -->
+        </div>
+        
+        <div class="izquierdo">
+            <input class="text-input" id="inputText" type="text" placeholder="Ingrese el texto aquí">
+        </div>
+        
+        <div class="derecho">
+            <img class="logosvg" src="img/muñeco.svg" alt="" id="img-derecha">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea id="texto-2" name="" id="" cols="30" rows="10">Ingrese el texto que desee encritar o desencriptar</textarea>
+            <button id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+
+        <div class="button">
+            <p>&#9888; Solo letras minúsculas y sin acentos</p>
+            <button id="encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+
+    <div class="burbujas">
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+    </div>
+    
+</body>
+</html>
